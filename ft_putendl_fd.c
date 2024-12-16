@@ -1,34 +1,23 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_memmove.c                                       :+:      :+:    :+:   */
+/*   ft_putendl_fd.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: miguel-f <miguel-f@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/12/04 16:51:52 by miguel-f          #+#    #+#             */
-/*   Updated: 2024/12/16 18:00:55 by miguel-f         ###   ########.fr       */
+/*   Created: 2024/12/16 18:56:22 by miguel-f          #+#    #+#             */
+/*   Updated: 2024/12/16 19:01:59 by miguel-f         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	*ft_memmove(void *dest, const void *src, size_t n)
+void	ft_putendl_fd(char *s, int fd)
 {
-	unsigned char		*d;
-	const unsigned char	*s = src;
-
-	d = dest;
-	if (d < s)
+	while (*s)
 	{
-		while (n--)
-			*d++ = *s++;
+		write(fd, s, 1);
+		s++;
 	}
-	else if (d > s)
-	{
-		d += n - 1;
-		s += n - 1;
-		while (n--)
-			*d-- = *s--;
-	}
-	return (dest);
+	write(fd, "\n", 1);
 }
