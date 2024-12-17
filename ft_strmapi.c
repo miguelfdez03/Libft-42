@@ -6,11 +6,12 @@
 /*   By: miguel-f <miguel-f@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/16 18:29:12 by miguel-f          #+#    #+#             */
-/*   Updated: 2024/12/16 18:31:29 by miguel-f         ###   ########.fr       */
+/*   Updated: 2024/12/17 18:27:28 by miguel-f         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+#include <stdio.h>
 
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 {
@@ -31,3 +32,26 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	copy[i] = '\0';
 	return (copy);
 }
+
+/* char	uppercase_mapper(unsigned int i, char c)
+{
+	(void)i; // To avoid unused variable warning
+	return (ft_toupper(c));
+}
+
+int	main(void)
+{
+	char str[] = "Hello World!";
+	char *result = ft_strmapi(str, uppercase_mapper);
+
+	if (result)
+	{
+		printf("Original string: %s\n", str);
+		printf("Uppercase string: %s\n", result);
+		free(result);
+	}
+	else
+		printf("Error: Memory allocation failed\n");
+
+	return (0);
+} */

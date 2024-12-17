@@ -6,7 +6,7 @@
 /*   By: miguel-f <miguel-f@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/04 16:51:52 by miguel-f          #+#    #+#             */
-/*   Updated: 2024/12/16 18:00:55 by miguel-f         ###   ########.fr       */
+/*   Updated: 2024/12/17 20:08:45 by miguel-f         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,3 +32,19 @@ void	*ft_memmove(void *dest, const void *src, size_t n)
 	}
 	return (dest);
 }
+
+/* int main(void)
+{
+    char str[] = "Hello World";
+    printf("\nTesting ft_memmove:\n");
+    printf("-----------------\n");
+    
+    printf("Original string: %s\n", str);
+    
+    // Moving overlapping memory (moving 'World' to the beginning)
+    ft_memmove(str, str + 6, 5);
+    
+    printf("After memmove: %s\n", str);
+    
+    return (0);
+} */

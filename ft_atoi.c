@@ -6,7 +6,7 @@
 /*   By: miguel-f <miguel-f@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/10 17:55:58 by miguel-f          #+#    #+#             */
-/*   Updated: 2024/12/10 17:56:42 by miguel-f         ###   ########.fr       */
+/*   Updated: 2024/12/17 19:19:59 by miguel-f         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -51,7 +51,7 @@ int	ft_atoi(const char *nptr)
 	printf("ft_atoi(\"%s\") = %d\n", str4, ft_atoi(str4)); // -42
 	printf("ft_atoi(\"%s\") = %d\n", str5, ft_atoi(str5)); // 2024
 
-	// Para comparar con la función estándar atoi
+	// to compare with the original atoi function
 	printf("\nPruebas con atoi:\n");
 	printf("atoi(\"%s\") = %d\n", str1, atoi(str1)); // -12345
 	printf("atoi(\"%s\") = %d\n", str2, atoi(str2)); // 42

@@ -6,7 +6,7 @@
 /*   By: miguel-f <miguel-f@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/05 12:36:41 by miguel-f          #+#    #+#             */
-/*   Updated: 2024/12/05 13:05:01 by miguel-f         ###   ########.fr       */
+/*   Updated: 2024/12/17 20:01:53 by miguel-f         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,17 +23,28 @@ void	*ft_memchr(const void *s, int c, size_t n)
 	}
 	return (NULL);
 }
+
 /* int main()
 {
-	char str[] = "Hello, World!";
+    char str[] = "Hello, World!";
+    void *result1;
+    void *result2;
 
-	// Buscar 'o'
-	void *result1 = ft_memchr(str, 'o', strlen(str));
-	printf("Resultado 'o': %s\n", result1 ? (char*)result1 : "No encontrado");
+    // Search for 'o'
+    result1 = ft_memchr(str, 'o', strlen(str));
+    printf("Result for 'o': ");
+    if (result1)
+        printf("%s\n", (char*)result1);
+    else
+        printf("Not found\n");
 
-	// Buscar 'z'
-	void *result2 = ft_memchr(str, 'z', strlen(str));
-	printf("Resultado 'z': %s\n", result2 ? (char*)result2 : "No encontrado");
+    // Search for 'z'
+    result2 = ft_memchr(str, 'z', strlen(str));
+    printf("Result for 'z': ");
+    if (result2)
+        printf("%s\n", (char*)result2);
+    else
+        printf("Not found\n");
 
-	return (0);
+    return (0);
 } */

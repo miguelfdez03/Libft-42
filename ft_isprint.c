@@ -6,9 +6,11 @@
 /*   By: miguel-f <miguel-f@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/03 13:16:20 by miguel-f          #+#    #+#             */
-/*   Updated: 2024/12/04 16:22:24 by miguel-f         ###   ########.fr       */
+/*   Updated: 2024/12/17 19:45:56 by miguel-f         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 int	ft_isprint(int c)
 {
@@ -19,3 +21,23 @@ int	ft_isprint(int c)
 		n = 1;
 	return (n);
 }
+
+/* nt	main(void)
+{
+	int	test[] = {65, 32, 127, 31, 7};
+	int	i;
+	char	*result;
+
+	i = 0;
+	while (i < 5)
+	{
+		if (ft_isprint(test[i]))
+			result = "printable";
+		else
+			result = "not printable";
+		printf("ASCII %d is %s\n", test[i], result);
+		i++;
+	}
+	return (0);
+}
+ */

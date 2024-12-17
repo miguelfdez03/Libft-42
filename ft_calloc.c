@@ -6,7 +6,7 @@
 /*   By: miguel-f <miguel-f@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/05 19:47:26 by miguel-f          #+#    #+#             */
-/*   Updated: 2024/12/10 17:31:56 by miguel-f         ###   ########.fr       */
+/*   Updated: 2024/12/17 19:28:11 by miguel-f         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,3 +28,24 @@ void	*ft_calloc(size_t nmemb, size_t size)
 	ft_bzero(memory, total_size);
 	return (memory);
 }
+
+/* int	main(void)
+{
+	int	*numbers;
+	int	i;
+
+	// Allocate space for 5 integers
+	numbers = (int *)ft_calloc(5, sizeof(int));
+	if (numbers)
+	{
+		printf("Allocated array of 5 integers:\n");
+		i = 0;
+		while (i < 5)
+		{
+			printf("numbers[%d] = %d\n", i, numbers[i]);
+			i++;
+		}
+		free(numbers);
+	}
+	return (0);
+} */

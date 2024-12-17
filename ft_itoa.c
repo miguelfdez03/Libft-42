@@ -6,7 +6,7 @@
 /*   By: miguel-f <miguel-f@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/16 17:45:11 by miguel-f          #+#    #+#             */
-/*   Updated: 2024/12/16 18:18:19 by miguel-f         ###   ########.fr       */
+/*   Updated: 2024/12/17 20:01:23 by miguel-f         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -62,3 +62,25 @@ char	*ft_itoa(int n)
 	len = get_num_len(num);
 	return (convert_to_str(num, len, is_negative));
 }
+
+/* int main(void)
+{
+    int     test_nums[] = {0, 42, -42, 2147483647, -2147483648};
+    int     i;
+    char    *result;
+
+    i = 0;
+    printf("\nTesting ft_itoa function:\n");
+    printf("------------------------\n");
+    
+    while (i < 5)
+    {
+        result = ft_itoa(test_nums[i]);
+        printf("Input number: %d\n", test_nums[i]);
+        printf("String output: '%s'\n", result);
+        printf("------------------------\n");
+        free(result);
+        i++;
+    }
+    return (0);
+} */
