@@ -6,7 +6,7 @@
 /*   By: miguel-f <miguel-f@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/16 20:32:36 by miguel-f          #+#    #+#             */
-/*   Updated: 2024/12/16 20:46:17 by miguel-f         ###   ########.fr       */
+/*   Updated: 2024/12/18 23:05:14 by miguel-f         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -95,3 +95,27 @@ char	**ft_split(char const *s, char c)
 		return (NULL);
 	return (split_words(s, c, result));
 }
+
+/* int main(void)
+{
+    char    *str = "Hello,World,Split,Test";
+    char    **result;
+    int     i;
+
+    printf("\nTesting ft_split:\n");
+    printf("---------------\n");
+    printf("Original string: %s\n", str);
+    printf("Splitting by ','\n\n");
+
+    result = ft_split(str, ',');
+    i = 0;
+    
+    while (result[i] != NULL)
+    {
+        printf("Word %d: '%s'\n", i + 1, result[i]);
+        free(result[i]);
+        i++;
+    }
+    free(result);
+    return (0);
+} */

@@ -6,7 +6,7 @@
 /*   By: miguel-f <miguel-f@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/03 13:16:20 by miguel-f          #+#    #+#             */
-/*   Updated: 2024/12/17 19:45:56 by miguel-f         ###   ########.fr       */
+/*   Updated: 2024/12/18 23:55:46 by miguel-f         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ int	ft_isprint(int c)
 	return (n);
 }
 
-/* nt	main(void)
+/* int	main(void)
 {
 	int	test[] = {65, 32, 127, 31, 7};
 	int	i;

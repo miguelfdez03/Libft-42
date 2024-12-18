@@ -6,7 +6,7 @@
 /*   By: miguel-f <miguel-f@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/05 13:27:39 by miguel-f          #+#    #+#             */
-/*   Updated: 2024/12/06 14:44:46 by miguel-f         ###   ########.fr       */
+/*   Updated: 2024/12/18 22:36:59 by miguel-f         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,3 +38,21 @@ char	*ft_strnstr(const char *big, const char *little, size_t len)
 	}
 	return (NULL);
 }
+
+/* int main(void)
+{
+    const char *haystack = "Hello World";
+    const char *needle = "World";
+    
+    printf("\nTesting ft_strnstr:\n");
+    printf("Looking for '%s' in '%s'\n", needle, haystack);
+    
+    char *result = ft_strnstr(haystack, needle, strlen(haystack));
+    
+    if (result)
+        printf("Found: '%s'\n", result);
+    else
+        printf("Not found\n");
+    
+    return (0);
+} */

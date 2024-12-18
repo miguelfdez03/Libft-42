@@ -6,7 +6,7 @@
 /*   By: miguel-f <miguel-f@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/04 19:37:19 by miguel-f          #+#    #+#             */
-/*   Updated: 2024/12/10 14:17:02 by miguel-f         ###   ########.fr       */
+/*   Updated: 2024/12/18 19:43:36 by miguel-f         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,7 +43,7 @@ size_t	ft_strlcat(char *dst, const char *src, size_t size)
 	char			src[] = " Wor";
 	unsigned int	size;
 	unsigned int	result;
-
+ 
 	size = 4;
 	result = ft_strlcat(dest, src, size);
 	printf("'%s'\n", dest);

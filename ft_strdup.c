@@ -6,7 +6,7 @@
 /*   By: miguel-f <miguel-f@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/10 19:54:12 by miguel-f          #+#    #+#             */
-/*   Updated: 2024/12/10 19:54:27 by miguel-f         ###   ########.fr       */
+/*   Updated: 2024/12/18 19:30:01 by miguel-f         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,3 +33,21 @@ char	*ft_strdup(const char *s)
 	new_str[i] = '\0';
 	return (new_str);
 }
+
+/* int main(void)
+{
+    char *original = "Hello World";
+    char *duplicate;
+    
+    printf("\nTesting ft_strdup:\n");
+    printf("----------------\n");
+    
+    printf("Original string: '%s'\n", original);
+    
+    duplicate = ft_strdup(original);
+    printf("Duplicated string: '%s'\n", duplicate);
+    printf("Different memory address: %p != %p\n", original, duplicate);
+    
+    free(duplicate);
+    return (0);
+} */

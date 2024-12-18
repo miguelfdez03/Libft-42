@@ -6,7 +6,7 @@
 /*   By: miguel-f <miguel-f@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/10 20:04:47 by miguel-f          #+#    #+#             */
-/*   Updated: 2024/12/11 13:36:40 by miguel-f         ###   ########.fr       */
+/*   Updated: 2024/12/18 22:53:51 by miguel-f         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,3 +32,20 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	ft_strlcpy(substr, s + start, copy_len + 1);
 	return (substr);
 }
+
+/* int main(void)
+{
+    char *str = "Hello World";
+    char *sub;
+    
+    printf("\nTesting ft_substr:\n");
+    printf("----------------\n");
+    printf("Original string: '%s'\n", str);
+    
+    // Extract "World" (starts at 6, length 5)
+    sub = ft_substr(str, 6, 5);
+    printf("Substring (6,5): '%s'\n", sub);
+    free(sub);
+    
+    return (0);
+} */
