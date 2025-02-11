@@ -95,5 +95,10 @@ El Makefile está configurado para compilar todo automáticamente y generar la l
 
 ---
 
-## 📄 Licencia
-Este proyecto es parte del plan de estudios de 42 y está bajo las [normas académicas](https://www.42network.org/).
+
+- LinkedIn: https://www.linkedin.com/in/miguelfdezmunoz
+
+---
+
+Nota: Este repositorio se sube con el propósito de compartir mi progreso y ofrecer un recurso orientativo para aquellos que necesiten ayuda en su aprendizaje. Espero que se utilice como base de estudio y no solo para copiar y pegar soluciones.
+<p align="center">🚀 Never stop learning!</p>
